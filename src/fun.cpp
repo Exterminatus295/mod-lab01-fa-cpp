@@ -7,8 +7,7 @@ unsigned int faStr1(const char* str) {
     bool b = false;
     bool c = false;
 
-    while (str[i] != 0) 
-    {
+    while (str[i] != 0) {
         char d = str[i];
         if (d != ' ' && !b)
             b = true;
