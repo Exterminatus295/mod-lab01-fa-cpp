@@ -17,10 +17,8 @@ unsigned int faStr1(const char* str) {
             b = false;
             a++;
         }
-        else if (d == ' ' && b) {
-            b = false;
-            c = false;
-        }
+        else if (d == ' ' && b)
+            b = false; c = false;
         i++;
     }
     if (b && !c)
